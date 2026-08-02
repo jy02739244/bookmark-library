@@ -18,8 +18,8 @@ bookmark-library/
 
 每个书签文件采用 iori-nav 的系统导出格式，即 `{ "category": [...], "sites": [...] }`：
 
-- `category`：分类列表，字段含 `id`、`catelog`、`parent_id`、`sort_order`、`is_private`
-- `sites`：书签列表，字段含 `name`、`url`、`catelog_id`、`sort_order`、`is_private`、`logo`、`desc`
+- `category`：分类列表，字段含 `id`、`catelog`、`parent_id`、`sort_order`
+- `sites`：书签列表，字段含 `name`、`url`、`catelog_id`、`sort_order`、`logo`、`desc`
 
 `logo` 为空时，iori-nav 导入会自动通过 `ICON_API` 生成 favicon，无需手动填写。
 
@@ -32,3 +32,14 @@ bookmark-library/
 3. 推送仓库后，在 iori-nav 后台即可看到并通过导入流程使用。
 
 `count` 请与文件内书签数量保持一致，方便后台展示。
+
+## 版本管理
+
+每次修改书签内容后，请打一个新的 Git tag 发布版本：
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+iori-nav 后台通过 jsDelivr CDN 加载书签库，URL 中的 `@v1.0.0` 引用 tag 名称。更新书签库后只需打新 tag、更新 iori-nav 中 `PUBLIC_LIBRARY_SOURCE.ref` 的版本号即可立即生效，无需等待 CDN 缓存过期。
