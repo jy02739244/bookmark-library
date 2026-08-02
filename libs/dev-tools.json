@@ -6,25 +6,25 @@
     {
       "name": "GitHub",
       "url": "https://github.com",
-      "logo": "",
+      "logo": "https://github.com/favicon.ico",
       "desc": "代码托管与协作平台"
     },
     {
       "name": "Stack Overflow",
       "url": "https://stackoverflow.com",
-      "logo": "",
+      "logo": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/favicon.svg",
       "desc": "开发者问答社区"
     },
     {
-      "name": "MDN Web Docs",
-      "url": "https://developer.mozilla.org",
-      "logo": "",
-      "desc": "Web 开发文档"
+      "name": "Cloudflare",
+      "url": "https://dash.cloudflare.com",
+      "logo": "https://dash.cloudflare.com/favicon.ico",
+      "desc": "Cloudflare 网站管理控制台，快速访问。"
     },
     {
       "name": "Vercel",
       "url": "https://vercel.com",
-      "logo": "",
+      "logo": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
       "desc": "前端部署平台"
     }
   ]
