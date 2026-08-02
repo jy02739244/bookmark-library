@@ -1,0 +1,34 @@
+{
+  "category": [
+    { "id": 1, "catelog": "AI 工具", "parent_id": 0, "sort_order": 1, "is_private": 0 }
+  ],
+  "sites": [
+    {
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com",
+      "catelog_id": 1,
+      "sort_order": 1,
+      "is_private": 0,
+      "logo": "",
+      "desc": "OpenAI 对话助手"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "catelog_id": 1,
+      "sort_order": 2,
+      "is_private": 0,
+      "logo": "",
+      "desc": "Anthropic 对话助手"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co",
+      "catelog_id": 1,
+      "sort_order": 3,
+      "is_private": 0,
+      "logo": "",
+      "desc": "开源模型与数据集平台"
+    }
+  ]
+}

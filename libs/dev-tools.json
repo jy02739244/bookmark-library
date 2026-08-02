@@ -1,0 +1,43 @@
+{
+  "category": [
+    { "id": 1, "catelog": "开发工具", "parent_id": 0, "sort_order": 1, "is_private": 0 }
+  ],
+  "sites": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "catelog_id": 1,
+      "sort_order": 1,
+      "is_private": 0,
+      "logo": "",
+      "desc": "代码托管与协作平台"
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "catelog_id": 1,
+      "sort_order": 2,
+      "is_private": 0,
+      "logo": "",
+      "desc": "开发者问答社区"
+    },
+    {
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "catelog_id": 1,
+      "sort_order": 3,
+      "is_private": 0,
+      "logo": "",
+      "desc": "Web 开发文档"
+    },
+    {
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "catelog_id": 1,
+      "sort_order": 4,
+      "is_private": 0,
+      "logo": "",
+      "desc": "前端部署平台"
+    }
+  ]
+}

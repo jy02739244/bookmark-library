@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "updated": "2026-08-02",
+  "libraries": [
+    {
+      "id": "ai-tools",
+      "name": "AI 工具",
+      "description": "常用 AI 对话与创作平台",
+      "file": "libs/ai-tools.json",
+      "count": 3
+    },
+    {
+      "id": "dev-tools",
+      "name": "开发工具",
+      "description": "开发者常用平台与文档资源",
+      "file": "libs/dev-tools.json",
+      "count": 4
+    },
+    {
+      "id": "news",
+      "name": "资讯",
+      "description": "技术资讯与社区信息源",
+      "file": "libs/news.json",
+      "count": 4
+    }
+  ]
+}
