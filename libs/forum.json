@@ -11,8 +11,8 @@
     },
     {
       "name": "NodeSeek",
-      "url": "https://www.nodeseek.com/",
-      "logo": "https://www.nodeseek.com/static/image/favicon/favicon-32x32.png",
+      "url": "https://www.nodeseek.com",
+      "logo": "https://faviconsnap.com/api/favicon?url=www.nodeseek.com",
       "desc": "VPS、云服务器与极客技术交流社区"
     },
     {
