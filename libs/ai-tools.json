@@ -6,20 +6,62 @@
     {
       "name": "ChatGPT",
       "url": "https://chat.openai.com",
-      "logo": "",
+      "logo": "https://chatgpt.com/favicon.ico",
       "desc": "OpenAI 对话助手"
     },
     {
       "name": "Claude",
       "url": "https://claude.ai",
-      "logo": "",
+      "logo": "https://claude.ai/favicon.ico",
       "desc": "Anthropic 对话助手"
     },
     {
-      "name": "Hugging Face",
-      "url": "https://huggingface.co",
-      "logo": "",
-      "desc": "开源模型与数据集平台"
+      "name": "Google Gemini",
+      "url": "https://gemini.google.com",
+      "logo": "https://faviconsnap.com/api/favicon?url=gemini.google.com",
+      "desc": "Google Gemini，AI助手"
+    },
+    {
+      "name": "Grok",
+      "url": "https://grok.com",
+      "logo": "https://grok.com/images/favicon.ico",
+      "desc": "xAI（埃隆·马斯克创办的人工智能公司）开发的人工智能助手"
+    },
+    {
+      "name": "Kimi AI",
+      "url": "https://www.kimi.com/",
+      "logo": "https://faviconsnap.com/api/favicon?url=www.kimi.com",
+      "desc": "月之暗面（Moonshot AI）开发的人工智能助手与大语言模型生态的官方平台"
+    },
+    {
+      "name": "DeepSeek|深度求索",
+      "url": "https://www.deepseek.com/",
+      "logo": "https://www.deepseek.com/favicon.ico",
+      "desc": "DeepSeek（深度求索）的官方网站"
+    },
+    {
+      "name": "千问-阿里AI助手",
+      "url": "https://www.qianwen.com",
+      "logo": "https://faviconsnap.com/api/favicon?url=www.qianwen.com",
+      "desc": "阿里巴巴开发的AI助手"
+    },
+    {
+      "name": "智谱AI",
+      "url": "https://bigmodel.cn/",
+      "logo": "https://static.bigmodel.cn/wd-paas-front/static/images/favicon.png",
+      "desc": "智谱AI开放平台"
+    },
+    {
+      "name": "商汤日日新",
+      "url": "https://www.sensenova.cn/",
+      "logo": "https://www.sensenova.cn/icon.png",
+      "desc": "商汤科技大模型平台，目前提供免费的deepseek-v4-flash"
+    },
+    {
+      "name": "Cline",
+      "url": "https://app.cline.bot/dashboard",
+      "logo": "https://cline.bot/assets/branding/favicons/favicon-32x32.png",
+      "desc": "面向开发者的开源 AI 编程代理平台，目前提供免费的deepseek-v4-flash"
     }
   ]
 }
