@@ -17,10 +17,10 @@
       "count": 4
     },
     {
-      "id": "news",
-      "name": "资讯",
+      "id": "forum",
+      "name": "论坛",
       "description": "技术资讯与社区信息源",
-      "file": "libs/news.json",
+      "file": "libs/forum.json",
       "count": 4
     }
   ]
