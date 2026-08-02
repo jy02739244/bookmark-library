@@ -12,7 +12,7 @@
     {
       "name": "Claude",
       "url": "https://claude.ai",
-      "logo": "https://claude.ai/favicon.ico",
+      "logo": "https://faviconsnap.com/api/favicon?url=claude.com",
       "desc": "Anthropic 对话助手"
     },
     {
@@ -55,13 +55,13 @@
       "name": "商汤日日新",
       "url": "https://www.sensenova.cn/",
       "logo": "https://www.sensenova.cn/icon.png",
-      "desc": "商汤科技大模型平台"
+      "desc": "商汤科技大模型平台,提供免费deepseek-v4-flash"
     },
     {
       "name": "Cline",
       "url": "https://app.cline.bot/dashboard",
       "logo": "https://cline.bot/assets/branding/favicons/favicon-32x32.png",
-      "desc": "面向开发者的开源 AI 编程代理平台"
+      "desc": "面向开发者的开源 AI 编程代理平台,提供免费deepseek-v4-flash"
     }
   ]
 }
