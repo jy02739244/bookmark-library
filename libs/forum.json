@@ -1,0 +1,25 @@
+{
+  "category": [
+    { "id": 1, "catelog": "论坛", "parent_id": 0, "sort_order": 1 }
+  ],
+  "sites": [
+    {
+      "name": "LinuxDo",
+      "url": "https://linux.do",
+      "logo": "https://faviconsnap.com/api/favicon?url=linux.do",
+      "desc": "新兴中文技术社区"
+    },
+    {
+      "name": "NodeSeek",
+      "url": "https://www.nodeseek.com/",
+      "logo": "https://www.nodeseek.com/static/image/favicon/favicon-32x32.png",
+      "desc": "围绕 VPS、云服务器托管、网站开发以及其他极客技术提供专注的交流平台"
+    },
+    {
+      "name": "NodeLoc",
+      "url": "https://www.nodeloc.com",
+      "logo": "https://faviconsnap.com/api/favicon?url=nodeloc.com",
+      "desc": "自由、平等、友好、开放、有趣的互联网交流社区"
+    }
+  ]
+}
