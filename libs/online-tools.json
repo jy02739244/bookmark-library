@@ -1,0 +1,43 @@
+{
+  "category": [
+    { "catelog": "在线工具", "parent_id": 0 }
+  ],
+  "sites": [
+    {
+      "name": "1024Tools",
+      "url": "https://1024tools.com",
+      "logo": "https://faviconsnap.com/api/favicon?url=1024tools.com",
+      "desc": "1024工具箱"
+    },
+    {
+      "name": "Google管理员工具箱",
+      "url": "https://toolbox.googleapps.com/apps/dig",
+      "logo": "https://faviconsnap.com/api/favicon?url=toolbox.googleapps.com",
+      "desc": "Google提供的管理员工具"
+    },
+    {
+      "name": "BEJSON",
+      "url": "https://www.bejson.com",
+      "logo": "https://faviconsnap.com/api/favicon?url=www.bejson.com",
+      "desc": "在线JSON格式化、转换和解析工具，支持多种编程语言"
+    },
+    {
+      "name": "CTool工具",
+      "url": "https://ctool.dev",
+      "logo": "https://faviconsnap.com/api/favicon?url=ctool.dev",
+      "desc": "CTool工具提供多种在线开发工具，方便快速编码和调试"
+    },
+    {
+      "name": "编程在线工具",
+      "url": "https://www.json.cn",
+      "logo": "https://faviconsnap.com/api/favicon?url=www.json.cn",
+      "desc": "在线加密，混淆，格式化，运行代码"
+    },
+    {
+      "name": "IP检测",
+      "url": "https://ippure.com",
+      "logo": "https://faviconsnap.com/api/favicon?url=ippure.com",
+      "desc": "IP纯净度，出口，泄露检测"
+    }
+  ]
+}

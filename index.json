@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-02",
+  "updated": "2026-08-03",
   "libraries": [
     {
       "id": "ai-tools",
@@ -17,11 +17,25 @@
       "count": 4
     },
     {
+      "id": "online-tools",
+      "name": "在线工具",
+      "description": "常用在线工具",
+      "file": "libs/online-tools.json",
+      "count": 6
+    },
+    {
       "id": "forum",
       "name": "论坛",
       "description": "技术资讯与社区信息源",
       "file": "libs/forum.json",
       "count": 3
+    },
+    {
+      "id": "temp-mail",
+      "name": "临时邮箱",
+      "description": "提供临时邮箱或者相应API",
+      "file": "libs/temp-mail.json",
+      "count": 5
     }
   ]
 }

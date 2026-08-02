@@ -6,12 +6,15 @@
 
 ```
 bookmark-library/
-├── index.json        # 清单：列出所有可用书签库
+├── .githooks/
+│   └── pre-commit          # 自动更新 index.json 的 count 和 updated
+├── index.json              # 清单：列出所有可用书签库
 ├── README.md
 └── libs/
-    ├── ai-tools.json # AI 工具
-    ├── dev-tools.json
-    └── news.json
+    ├── ai-tools.json       # AI 工具 (10)
+    ├── dev-tools.json      # 开发工具 (4)
+    ├── forum.json          # 论坛 (3)
+    └── temp-mail.json      # 临时邮箱 (5)
 ```
 
 ## 文件格式
@@ -32,6 +35,16 @@ bookmark-library/
 3. 推送仓库后，在 iori-nav 后台即可看到并通过导入流程使用。
 
 `count` 请与文件内书签数量保持一致，方便后台展示。
+
+### 自动更新 count
+
+项目配置了 git pre-commit 钩子，提交前会自动扫描各 library 文件，更新 `index.json` 中的 `count` 和 `updated` 日期。克隆仓库后首次使用时，执行一次以下命令启用钩子：
+
+```bash
+git config core.hooksPath .githooks
+```
+
+设置后每次 `git commit` 都会自动处理 count，无需手动修改。
 
 ## 版本管理
 

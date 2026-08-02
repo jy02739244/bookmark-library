@@ -1,0 +1,37 @@
+{
+  "category": [
+    { "catelog": "临时邮箱", "parent_id": 0 }
+  ],
+  "sites": [
+    {
+      "name": "22.do",
+      "url": "https://22.do",
+      "logo": "https://faviconsnap.com/api/favicon?url=22.do",
+      "desc": "22.Do - 临时邮箱"
+    },
+    {
+      "name": "YYDS Mail",
+      "url": "https://vip.215.im",
+      "logo": "https://faviconsnap.com/api/favicon?url=vip.215.im",
+      "desc": "YYDS Mail - 临时邮箱"
+    },
+    {
+      "name": "Temp Mail",
+      "url": "https://temp-mail.org",
+      "logo": "https://faviconsnap.com/api/favicon?url=temp-mail.org",
+      "desc": "Temp Mail - 临时邮箱"
+    },
+    {
+      "name": "TempForward",
+      "url": "https://tempforward.com/cn",
+      "logo": "https://www.faviconextractor.com/favicon/tempforward.com",
+      "desc": "TempForward - 临时邮箱"
+    },
+        {
+      "name": "MailTicking",
+      "url": "https://www.mailticking.com",
+      "logo": "https://faviconsnap.com/api/favicon?url=www.mailticking.com",
+      "desc": "MailTicking - 临时邮箱"
+    }
+  ]
+}

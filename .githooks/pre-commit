@@ -1,0 +1,41 @@
+#!/bin/sh
+# pre-commit: 自动更新 index.json 中各 library 的站点数量和更新日期
+
+set -e
+
+REPO_ROOT=$(git rev-parse --show-toplevel)
+INDEX="$REPO_ROOT/index.json"
+
+# 用 python3 读取 json、计算数量、写回
+python3 -c "
+import json, os
+
+with open('$INDEX', 'r') as f:
+    data = json.load(f)
+
+updated = False
+for lib in data['libraries']:
+    path = os.path.join(os.path.dirname('$INDEX'), lib['file'])
+    if not os.path.exists(path):
+        print(f'[pre-commit] 跳过 {lib[\"file\"]}（文件不存在）')
+        continue
+    with open(path, 'r') as f:
+        lib_data = json.load(f)
+    count = len(lib_data.get('sites', []))
+    if lib['count'] != count:
+        lib['count'] = count
+        updated = True
+        print(f'[pre-commit] {lib[\"id\"]}: count 更新为 {count}')
+
+if updated:
+    from datetime import date
+    data['updated'] = date.today().isoformat()
+    print(f'[pre-commit] updated 更新为 {data[\"updated\"]}')
+    with open('$INDEX', 'w') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        f.write('\n')
+    import subprocess
+    subprocess.run(['git', 'add', '$INDEX'], check=True)
+else:
+    print('[pre-commit] count 无变化，无需更新')
+" || exit 1
