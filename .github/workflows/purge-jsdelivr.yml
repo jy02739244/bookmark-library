@@ -17,3 +17,5 @@ jobs:
           curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/ai-tools.json"
           curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/dev-tools.json"
           curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/forum.json"
+          curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/online-tools.json"
+          curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/temp-mail.json"
