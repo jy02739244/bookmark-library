@@ -1,0 +1,19 @@
+name: Purge jsDelivr Cache
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache
+        run: |
+          curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/index.json"
+          curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/ai-tools.json"
+          curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/dev-tools.json"
+          curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/forum.json"

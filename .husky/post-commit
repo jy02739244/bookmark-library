@@ -1,6 +1,0 @@
-#!/bin/sh
-# jsDelivr purge - 提交后自动清除缓存，确保CDN立即生效
-curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/index.json"
-curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/ai-tools.json"
-curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/dev-tools.json"
-curl -sS -o /dev/null "https://purge.jsdelivr.net/gh/jy02739244/bookmark-library@main/libs/forum.json"
