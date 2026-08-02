@@ -1,41 +1,29 @@
 {
   "category": [
-    { "id": 1, "catelog": "资讯", "parent_id": 0, "sort_order": 1, "is_private": 0 }
+    { "id": 1, "catelog": "资讯", "parent_id": 0, "sort_order": 1 }
   ],
   "sites": [
     {
       "name": "少数派",
       "url": "https://sspai.com",
-      "catelog_id": 1,
-      "sort_order": 1,
-      "is_private": 0,
       "logo": "",
       "desc": "数字生活与效率指南"
     },
     {
       "name": "V2EX",
       "url": "https://www.v2ex.com",
-      "catelog_id": 1,
-      "sort_order": 2,
-      "is_private": 0,
       "logo": "",
       "desc": "创意工作者社区"
     },
     {
       "name": "Hacker News",
       "url": "https://news.ycombinator.com",
-      "catelog_id": 1,
-      "sort_order": 3,
-      "is_private": 0,
       "logo": "",
       "desc": "技术创业新闻社区"
     },
     {
       "name": "阮一峰的网络日志",
       "url": "https://www.ruanyifeng.com/blog/",
-      "catelog_id": 1,
-      "sort_order": 4,
-      "is_private": 0,
       "logo": "",
       "desc": "科技与互联网周刊"
     }

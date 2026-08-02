@@ -23,6 +23,8 @@ bookmark-library/
 
 `logo` 为空时，iori-nav 导入会自动通过 `ICON_API` 生成 favicon，无需手动填写。
 
+> 公共书签库均为公开书签，无需添加 `is_private` 字段；导入时默认视为公开。
+
 ## 如何使用
 
 1. 在新目录 `libs/` 下新建一个书签 JSON 文件，例如 `libs/music.json`。
