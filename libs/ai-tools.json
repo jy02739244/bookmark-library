@@ -1,85 +1,65 @@
 {
   "category": [
-    { "id": 1, "catelog": "AI 工具", "parent_id": 0, "sort_order": 1 }
+    { "catelog": "AI 工具", "parent_id": 0 }
   ],
   "sites": [
     {
       "name": "ChatGPT",
       "url": "https://chat.openai.com",
-      "catelog_id": 1,
-      "sort_order": 1,
       "logo": "https://chatgpt.com/favicon.ico",
       "desc": "OpenAI 对话助手"
     },
     {
       "name": "Claude",
       "url": "https://claude.ai",
-      "catelog_id": 1,
-      "sort_order": 2,
       "logo": "https://claude.ai/favicon.ico",
       "desc": "Anthropic 对话助手"
     },
     {
       "name": "Google Gemini",
       "url": "https://gemini.google.com",
-      "catelog_id": 1,
-      "sort_order": 3,
       "logo": "https://faviconsnap.com/api/favicon?url=gemini.google.com",
       "desc": "Google Gemini，AI助手"
     },
     {
       "name": "Grok",
       "url": "https://grok.com",
-      "catelog_id": 1,
-      "sort_order": 4,
       "logo": "https://grok.com/images/favicon.ico",
       "desc": "xAI 开发的人工智能助手"
     },
     {
       "name": "Kimi AI",
       "url": "https://www.kimi.com/",
-      "catelog_id": 1,
-      "sort_order": 5,
       "logo": "https://faviconsnap.com/api/favicon?url=www.kimi.com",
       "desc": "月之暗面（Moonshot AI）开发的 AI 助手平台"
     },
     {
       "name": "DeepSeek",
       "url": "https://www.deepseek.com/",
-      "catelog_id": 1,
-      "sort_order": 6,
       "logo": "https://www.deepseek.com/favicon.ico",
       "desc": "深度求索的 AI 对话平台"
     },
     {
       "name": "通义千问",
       "url": "https://tongyi.aliyun.com",
-      "catelog_id": 1,
-      "sort_order": 7,
       "logo": "",
       "desc": "阿里巴巴开发的 AI 助手"
     },
     {
       "name": "智谱AI",
       "url": "https://bigmodel.cn/",
-      "catelog_id": 1,
-      "sort_order": 8,
       "logo": "https://static.bigmodel.cn/wd-paas-front/static/images/favicon.png",
       "desc": "智谱AI 开放平台"
     },
     {
       "name": "商汤日日新",
       "url": "https://www.sensenova.cn/",
-      "catelog_id": 1,
-      "sort_order": 9,
       "logo": "https://www.sensenova.cn/icon.png",
       "desc": "商汤科技大模型平台"
     },
     {
       "name": "Cline",
       "url": "https://app.cline.bot/dashboard",
-      "catelog_id": 1,
-      "sort_order": 10,
       "logo": "https://cline.bot/assets/branding/favicons/favicon-32x32.png",
       "desc": "面向开发者的开源 AI 编程代理平台"
     }

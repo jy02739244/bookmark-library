@@ -1,37 +1,29 @@
 {
   "category": [
-    { "id": 1, "catelog": "开发工具", "parent_id": 0, "sort_order": 1 }
+    { "catelog": "开发工具", "parent_id": 0 }
   ],
   "sites": [
     {
       "name": "GitHub",
       "url": "https://github.com",
-      "catelog_id": 1,
-      "sort_order": 1,
       "logo": "https://github.com/favicon.ico",
       "desc": "代码托管与协作平台"
     },
     {
       "name": "Stack Overflow",
       "url": "https://stackoverflow.com",
-      "catelog_id": 1,
-      "sort_order": 2,
       "logo": "https://stackoverflow.com/Content/Sites/stackoverflow/Img/favicon.svg",
       "desc": "开发者问答社区"
     },
     {
       "name": "Cloudflare",
       "url": "https://dash.cloudflare.com",
-      "catelog_id": 1,
-      "sort_order": 3,
       "logo": "https://dash.cloudflare.com/favicon.ico",
       "desc": "Cloudflare 网站管理控制台"
     },
     {
       "name": "Vercel",
       "url": "https://vercel.com",
-      "catelog_id": 1,
-      "sort_order": 4,
       "logo": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
       "desc": "前端部署平台"
     }
