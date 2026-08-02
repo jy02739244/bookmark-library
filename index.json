@@ -7,7 +7,7 @@
       "name": "AI 工具",
       "description": "常用 AI 对话与创作平台",
       "file": "libs/ai-tools.json",
-      "count": 3
+      "count": 10
     },
     {
       "id": "dev-tools",
@@ -21,7 +21,7 @@
       "name": "论坛",
       "description": "技术资讯与社区信息源",
       "file": "libs/forum.json",
-      "count": 4
+      "count": 3
     }
   ]
 }
