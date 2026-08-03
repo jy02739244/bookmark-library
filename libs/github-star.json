@@ -1,0 +1,85 @@
+{
+  "category": [
+    { "catelog": "开源项目", "parent_id": 0 }
+  ],
+  "sites": [
+    {
+      "name": "CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "logo": "https://avatars.githubusercontent.com/u/233033915?s=64&v=4",
+      "desc": "一个为 CLI 提供 OpenAI/Gemini/Claude/Codex/Grok 兼容 API 接口的代理服务器"
+    },
+    {
+      "name": "New API",
+      "url": "https://github.com/QuantumNous/new-api",
+      "logo": "https://www.newapi.ai/assets/logo.png",
+      "desc": " AI API 网关与用量管理系统"
+    },
+    {
+      "name": "edgetunnel",
+      "url": "https://github.com/cmliu/edgetunnel",
+      "logo": "https://avatars.githubusercontent.com/u/24787744?v=4",
+      "desc": "edgetunnel 是一个基于 CF Workers/Pages 平台的边缘计算隧道解密方案"
+    },
+    {
+      "name": "sublink-worker",
+      "url": "https://github.com/7Sageer/sublink-worker",
+      "logo": "https://sublink.works/favicon.png",
+      "desc": "订阅管理中心，一个Worker，所有订阅"
+    },
+    {
+      "name": "komari",
+      "url": "https://github.com/komari-monitor/komari",
+      "logo": "https://avatars.githubusercontent.com/u/208285284?s=60&v=4",
+      "desc": "简单的服务器监控工具"
+    },
+    {
+      "name": "uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "logo": "https://uptime.kuma.pet/img/icon.svg",
+      "desc": "一款功能强大的自托管监控工具"
+    },
+    {
+      "name": "ip-query-worker",
+      "url": "https://github.com/jy02739244/ip-query-worker",
+      "logo": "https://faviconsnap.com/api/favicon?url=ip.661388.xyz",
+      "desc": "多数据源IP查询,分流IP检测"
+    },
+    {
+      "name": "Sink",
+      "url": "https://github.com/miantiao-me/sink",
+      "logo": "https://faviconsnap.com/api/favicon?url=sink.cool",
+      "desc": "一款简单、快速且安全的链接缩短工具，具备分析功能，全部运行在 Cloudflare 平台上"
+    },
+    {
+      "name": "NodeWarden",
+      "url": "https://github.com/shuaiplus/NodeWarden",
+      "logo": "https://faviconsnap.com/api/favicon?url=nodewarden.app",
+      "desc": "兼容 Bitwarden 的服务,运行在 Cloudflare Workers 上"
+    },
+    {
+      "name": "Netcatty",
+      "url": "https://github.com/binaricat/Netcatty",
+      "logo": "https://netcatty.app/assets/icon.png",
+      "desc": "现代化的 SSH 客户端、SFTP 浏览器与终端管理器，内置 AI 智能体"
+    },
+    {
+      "name": "cloudflare_temp_email",
+      "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
+      "logo": "https://mail.awsl.uk/logo.png",
+      "desc": "CloudFlare部署的临时邮箱"
+    },
+    {
+      "name": "cloud-mail",
+      "url": "https://github.com/maillab/cloud-mail",
+      "logo": "https://skymail.ink/mail-pwa.png",
+      "desc": "基于 Cloudflare 的邮箱服务"
+    },
+    {
+      "name": "CloudFlare-ImgBed",
+      "url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
+      "logo": "https://cfbed.sanyue.de/logo.png",
+      "desc": "支持 Docker 与 Serverless 部署的开源文件托管方案，兼容多种存储后端"
+    }
+  ]
+}

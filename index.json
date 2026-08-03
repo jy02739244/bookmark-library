@@ -36,6 +36,13 @@
       "description": "提供临时邮箱或者相应API",
       "file": "libs/temp-mail.json",
       "count": 5
+    },
+    {
+      "id": "github-star",
+      "name": "开源项目",
+      "description": "常用Github开源项目地址",
+      "file": "libs/github-star.json",
+      "count": 13
     }
   ]
 }
