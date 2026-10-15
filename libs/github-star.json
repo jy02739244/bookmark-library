@@ -80,6 +80,12 @@
       "url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
       "logo": "https://cfbed.sanyue.de/logo.png",
       "desc": "支持 Docker 与 Serverless 部署的开源文件托管方案，兼容多种存储后端"
+    },
+    {
+      "name": "Inkstone",
+      "url": "https://github.com/shuaiplus/inkstone",
+      "logo": "https://raw.githubusercontent.com/shuaiplus/inkstone/refs/heads/main/public/inkstone-logo.svg",
+      "desc": "运行在 Cloudflare Workers 上的 Markdown 笔记项目"
     }
   ]
 }

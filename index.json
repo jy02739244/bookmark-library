@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-03",
+  "updated": "2026-10-16",
   "libraries": [
     {
       "id": "ai-tools",
@@ -21,7 +21,7 @@
       "name": "在线工具",
       "description": "常用在线工具",
       "file": "libs/online-tools.json",
-      "count": 6
+      "count": 5
     },
     {
       "id": "forum",
@@ -42,7 +42,7 @@
       "name": "开源项目",
       "description": "常用Github开源项目地址",
       "file": "libs/github-star.json",
-      "count": 13
+      "count": 14
     }
   ]
 }

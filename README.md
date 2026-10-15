@@ -14,6 +14,8 @@ bookmark-library/
     ├── ai-tools.json       # AI 工具 (10)
     ├── dev-tools.json      # 开发工具 (4)
     ├── forum.json          # 论坛 (3)
+    ├── github-star.json    # 开源项目 (14)
+    ├── online-tools.json   # 在线工具 (5)
     └── temp-mail.json      # 临时邮箱 (5)
 ```
 
